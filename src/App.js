@@ -1,5 +1,8 @@
+import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Status from "./Components/Status.js";
+
 
 function App() {
   return (
@@ -9,6 +12,10 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <Status text = "I am Rahul"/>
+        <Status text = "My girlfriends name is Naveksha"/>
+        <Status text = "We love each other a lot"/>
+
         <a
           className="App-link"
           href="https://reactjs.org"
