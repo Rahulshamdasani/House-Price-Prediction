@@ -1,3 +1,25 @@
+
+## Final Commit-(2) on 25 Aug - Components: Status All, Status, StatusList, App
+### New Component: StatusList
+#### Changes From Prev Version: 
+1) We want to write a function which can delete the status based on a keypress
+For writing this function, we have to take care of some things:
+
+a) Delete command will be triggered from frontend which is in ```Status.js```
+
+b) This command should delete a status which is stored inside state variable which is kept in ```StatusAll.js```
+
+c) For keeping a track of which status to be deleted, we need a key which is generated inside ```map``` function which is in ```statusList``` we will have to link all these three files
+
+d) One delete method needs to be declared ```status.js``` which will be declared ```onClick``` this method should trigger a function which is inside the file where state is actually declared i.e. ```StatusAll.js``` 
+
+#### What we learn:
+
+1) Pass functions between files
+
+2) Take care of modularity, and still make changes.
+
+
 ## Final Commit on 25 Aug - Components: Status All, Status, StatusList, App
 ### New Component: StatusList
 #### Changes From Prev Version: 
