@@ -1,7 +1,7 @@
-import React, {Component} from 'react';
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import StatusList from "./Components/StatusList.js";
+import StatusAll from "./Components/StatusAll";
 
 
 function App() {
@@ -12,7 +12,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <StatusList/>
+        
+        <StatusAll/>
 
         <a
           className="App-link"
