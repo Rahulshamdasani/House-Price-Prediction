@@ -29,6 +29,7 @@ export default class Status extends Component{
           <div className = "close" onClick = {this.delete}>X</div>
           <h3>{this.props.text}</h3>
           <p><button onClick = {this.likedNow}>{this.state.likeCount} Likes</button></p>
+          <p>{Date().toLocaleString()}</p>
         </div>
       );
     }
